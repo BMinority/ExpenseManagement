@@ -1,6 +1,6 @@
 # Controle de Gastos
 
-[Demonstração]()
+[Demonstração](https://bminority.github.io/ExpenseManagement/)
 
 ## Descrição
 
@@ -15,7 +15,7 @@ Este é um sistema de controle de gastos simples desenvolvido em HTML, CSS e Jav
 - Gráfico de barras para uma representação visual dos gastos.
 
 ## Layout
-<img src="./Assets/sistema controle de gastos.png">
+<img src="./Assets/sistema controle de gastos.png" alt="imagem app" width="300">
 
 ## Como Usar
 
