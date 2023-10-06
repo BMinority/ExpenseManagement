@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+#container {
+    padding: 0.7rem;
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 50%;
+
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 5px 5px 3px #6d6d6d;
+}
+
+main section {
+    width: 100%;
+}
+
+#inicio button, #gastos button {
+    cursor: pointer;
+    
+    border-radius: 5px;
+    
+    box-shadow: 0 1px 1px 1px #a5a5a5;
+
+    background-color: #3bcf00;
+    color: rgb(235, 241, 234);
+
+    padding: 2px;
+}
+
+#saldoPrincipal {
+    width: 100%;
+}
+
+#lista {
+    margin: 0.5rem 0;
+}
+
+main ul, li {
+    width: 100%;
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.5rem;
+}
+
+main ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: rgb(204, 204, 204);
+    color: red;
+    box-shadow: 0 1px 2px 1px #3a3a3a;
+
+    padding: 3px;
+
+    position: relative;
+
+    font-size: 1rem;
+
+    height: 1.8rem;
+}
+
+.botaoExcluir {
+    font-size: 1.2rem;
+
+    border: none;
+
+    background-color: transparent;
+
+    cursor: pointer;
+
+    position: absolute;
+    right: 0.5rem;
+}
+
+#clean {
+    position: absolute;
+
+    bottom: 1rem;
+    right: 1rem;
+
+    font-size: 1.3rem;
+
+    border-radius: 50%;
+    border: none;
+
+    width: 3rem;
+    height: 3rem;
+
+    box-shadow: 0 3px 5px 1px #000;
+
+    background-color: #636363;
+    color: aliceblue;
+
+    cursor: pointer;
+}
+
+@media (max-width: 758px) {
+    main {
+        width: 70%;
+    }
+
+    #gastos {
+        display: flex;
+        flex-direction: column;
+
+        gap: 0.3rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    input, button {
+        font-size: 0.9rem;
+    }
+
+    main ul li {
+        font-size: 1rem;
+    
+        height: 1.3rem;
+    }
+
+    .botaoExcluir {
+        font-size: 0.9rem;
+    }
+}
